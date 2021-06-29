@@ -1,1 +1,1 @@
-# DPI
+# DPI - Digital Image Processing

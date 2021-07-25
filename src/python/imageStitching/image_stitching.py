@@ -22,13 +22,11 @@ for imagePath in imagePaths:
 print("[INFO] stitching images...")
 stitcher = cv2.createStitcher() if imutils.is_cv3() else cv2.Stitcher_create()
 (status, stitched) = stitcher.stitch(images)
-print(status)
 if status == 0:
-	print('entrou')
 	cv2.imwrite(args["output"], stitched)
 	cv2.imshow("Stitched", stitched)
 	cv2.waitKey(0)
 else:
 	print("[INFO] image stitching failed ({})".format(status))
 
-# python image_stitching_simple.py --images images/scottsdale --output output.png
+# python image_stitching_simple.py --images images --output output.png

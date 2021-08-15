@@ -8,8 +8,6 @@ face = scipy.misc.face(gray=True)
 rotate_face = ndimage.rotate(face, 45)
 
 plt.figure(figsize=(12.5, 2.5))
-
-
 plt.subplot(151)
 plt.imshow(face, cmap=plt.cm.gray)
 plt.title('Original')

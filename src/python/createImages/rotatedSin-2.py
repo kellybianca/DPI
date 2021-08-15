@@ -1,11 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import math 
-     
-pontosX = np.linspace(-np.pi*2, np.pi*2, 512, endpoint=True)
-Cosseno,Seno = np.cos(pontosX), np.sin(pontosX)
+import math
 
-plt.plot(pontosX,Seno)
+pontosX = np.linspace(-np.pi*2, np.pi*2, 512, endpoint=True)
+Cosseno, Seno = np.cos(pontosX), np.sin(pontosX)
+
+plt.plot(pontosX, Seno)
 
 plt.show()
 

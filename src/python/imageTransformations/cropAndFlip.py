@@ -8,7 +8,7 @@ lx, ly = face.shape
 crop_face = face[lx//4:-lx//4, ly//4:-ly//4]
 flip_ud_face = np.flipud(face)
 
-plt.subplot(151)    
+plt.subplot(151)
 plt.imshow(face, cmap=plt.cm.gray)
 plt.title('original')
 plt.axis('off')

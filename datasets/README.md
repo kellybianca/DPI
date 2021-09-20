@@ -20,6 +20,10 @@ O artigo que o trabalho foi baseado foi encontrado no papers with code (https://
 
 ### Trabalhos relacionados 
 
+https://arxiv.org/pdf/1406.2661.pdf
+
+https://arxiv.org/pdf/1511.06434v2.pdf
+
 ### Dificuldades
 
 * Encontrar um projeto que funcionasse 
